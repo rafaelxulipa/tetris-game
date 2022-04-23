@@ -1,0 +1,49 @@
+html, body {
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(2, 136, 20) 0%, rgba(9,121,14,1) 35%, rgba(0, 0, 0, 0.933) 100%);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+canvas {
+    border: solid 0.2em #ffffff;
+    height: 90vh;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 350px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reset {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 2px;
+    width: 50%;
+}
+
+.comands {
+    display: flex;
+    flex-direction: row;
+    top: 5px;
+}
+.title1 {
+    margin: 5px;
+}

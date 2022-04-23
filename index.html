@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <div class="geral">
+        <div class="game">
+            <div id="score"></div>
+            <canvas id="tetris" width="240" height="400"></canvas>
+        </div>
+        <div class="instructions">
+            <img src="./images/LOGOS-portfolio.png" alt="brand" class="logo">
+            <button onclick="window.location.reload()" class="reset"><h4>NEW GAME</h4></button>
+            <div>
+                <h3 class="title1">Command List</h3>
+                <div class="comands">
+                    <p>
+                        <i class="fa-solid fa-circle-arrow-up"></i>
+                        <br>
+                        <i class="fa-solid fa-circle-arrow-left"></i>
+                        <i class="fa-solid fa-circle-arrow-down"></i> 
+                        <i class="fa-solid fa-circle-arrow-right"></i>
+                        <br><br>
+                        <b>SPACE</b> or <b>ENTER:</b> rotate
+                        </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
